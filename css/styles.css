@@ -412,10 +412,17 @@ h6 {
 }
 /* ------------footer---------- */
 .footer {
-  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contacts {
+  margin-right: 70px;
 }
 
 .address {
@@ -470,7 +477,7 @@ h6 {
   text-transform: uppercase;
 
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-social-list {
@@ -479,6 +486,10 @@ h6 {
 
 .social-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.footer-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* -------------кнопки портфолио----- */

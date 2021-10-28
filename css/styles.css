@@ -187,7 +187,6 @@ h6 {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -217,7 +216,6 @@ h6 {
 .hero-btn {
   cursor: pointer;
   font-family: Roboto, sans-serif;
-  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -472,8 +470,7 @@ h6 {
 .footer-header {
   display: block;
   font-family: inherit;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
@@ -515,7 +512,6 @@ h6 {
 .portfolio-btn {
   cursor: pointer;
   font-family: Roboto, sans-serif;
-  font-style: 400;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -579,8 +575,12 @@ h6 {
   color: var(--primary-color-text);
 }
 
-.portfolio-list:hover,
-.portfolio-list:focus {
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
